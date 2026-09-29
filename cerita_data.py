@@ -244,7 +244,7 @@ CERITA_DATABASE = {
     # ================= BAGIAN 4B: JALAN PINTAS =================
     "jalan_pintas": {
         "nama": "Narator",
-        "teks": "Rifat memutuskan untuk mengambil jalur jalan pintas.",
+        "teks": "Setelah Berpikir amat kerass Rifat memutuskan untuk mengambil jalur jalan pintas.",
         "gambar": "images/jalan_pintas.png",
         "tujuan": "jalan_pintas_2"
     },
@@ -274,17 +274,23 @@ CERITA_DATABASE = {
     },
     "jalan_pintas_6": {
         "nama": "Rifat",
-        "teks": "“Duh... malah macet total di sini! Sial banget.”",
-        "gambar": "images/rifat_panik.png",
+        "teks": "“Duh... banyak truk dan jalannya hancur banget di sini! Sial banget.”",
+        "gambar": "images/rifat_ngeluh.png",
         "tujuan": "jalan_pintas_7"
     },
     "jalan_pintas_7": {
-        "nama": "Narator",
-        "teks": "Dengan susah payah, Rifat tetap meneruskan perjalanan hingga akhirnya bisa keluar kembali ke jalan utama.",
-        "gambar": "images/naik_motor.png",
+        "nama": "Rifat",
+        "teks": "“Pemerintah Ngapain coba!! jalan rusak kok didiemin.”",
+        "gambar": "images/rifat_ngeluh.png",
         "tujuan": "jalan_pintas_8"
     },
     "jalan_pintas_8": {
+        "nama": "Narator",
+        "teks": "Dengan susah payah, Rifat tetap meneruskan perjalanan hingga akhirnya bisa keluar kembali ke jalan utama.",
+        "gambar": "images/terus_perjalanan.png",
+        "tujuan": "jalan_pintas_9"
+    },
+    "jalan_pintas_9": {
         "nama": "Narator",
         "teks": "Di depan terdapat persimpangan lampu merah yang sedang menyala merah.",
         "gambar": "images/lampu_merah.png",
@@ -309,14 +315,14 @@ CERITA_DATABASE = {
     "pintas_menunggu_3": {
         "nama": "Narator",
         "teks": "Karena tadi sempat terjebak macet di jalan pintas, waktu berjalan begitu cepat.",
-        "gambar": "images/naik_motor.png",
+        "gambar": "images/naik_motor2.png",
         "tujuan": "terlambat_awal"  # Otomatis masuk jalur terlambat karena sempat macet
     },
 
     "pintas_menerobos": {
         "nama": "Narator",
         "teks": "Karena panik sudah semakin siang, Rifat nekat menerobos lampu merah tersebut.",
-        "gambar": "images/nekat_terobos.png",
+        "gambar": "images/lampu_merah.png",
         "tujuan": "pintas_menerobos_2"
     },
     "pintas_menerobos_2": {
