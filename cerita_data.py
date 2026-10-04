@@ -344,7 +344,7 @@ CERITA_DATABASE = {
     # ================= POLICE ENDING =================
     "police_ending": {
         "nama": "Narator",
-        "teks": "Rifat mematikan mesin motornya dan menepi ke pinggir jalan. Pak Polisi langsung menghampirinya.",
+        "teks": "Rifat mematikan mesin motornya dan menepi ke pinggir jalan. Pak Polisi pun langsung menghampirinya.",
         "gambar": "images/tilang_1.png",
         "tujuan": "police_ending_2"
     },
@@ -386,7 +386,7 @@ CERITA_DATABASE = {
     },
     "police_ending_8": {
         "nama": "Rifat",
-        "teks": "“Yah... Habis sudah riwayatku. Gimana caranya bisa sampai sekolah sekarang?”",
+        "teks": "“ASUDEMMM!!! . Gimana caranya bisa sampai sekolah sekarang?”",
         "gambar": "images/rifat_menangis.png",
         "tipe": "ending",
         "id_ending": "police",
@@ -397,50 +397,50 @@ CERITA_DATABASE = {
     # ================= SECRET ENDING =================
     "secret_ending": {
         "nama": "Narator",
-        "teks": "Rifat yang sudah dikuasai rasa panik bertindak di luar kendali.",
+        "teks": "Rifat yang sudah dikuasai rasa panik bertindak di luar kendali dan mulai marah!.",
         "gambar": "images/rifat_marah.png",
         "tujuan": "secret_ending_2"
     },
     "secret_ending_2": {
         "nama": "Narator",
-        "teks": "Ketika pak polisi menyuruhnya tetap tenang, Rifat malah membentak dan bersikap agresif.",
+        "teks": "Ketika pak polisi menyuruhnya tetap tenang, Rifat malah menggila dan tidak terima.",
         "gambar": "images/ribut_polisi.png",
         "tujuan": "secret_ending_3"
     },
     "secret_ending_3": {
         "nama": "Narator",
-        "teks": "Terjadi perdebatan dan keributan singkat di pinggir jalan raya tersebut.",
-        "gambar": "images/ribut_polisi.png",
+        "teks": "Terjadi keributan singkat antara rifat dan pak polisi di pinggir jalan raya tersebut.",
+        "gambar": "images/ribut_polisi2.png",
         "tujuan": "secret_ending_4"
     },
     "secret_ending_4": {
         "nama": "Narator",
-        "teks": "Akhirnya, Rifat berhasil diamankan oleh petugas dan dibawa ke pos polisi terdekat.",
-        "gambar": "images/kantor_polisi.png",
+        "teks": "Akhirnya, Rifat berhasil diamankan oleh petugas dan dibawa ke pos polisi terdekat dan langsung dijebloskan ke penjara.",
+        "gambar": "images/tangkap_polisi.png",
         "tujuan": "secret_ending_5"
     },
     "secret_ending_5": {
         "nama": "Narator",
-        "teks": "Rifat duduk sendirian di dalam ruangan interogasi dengan tatapan kosong.",
-        "gambar": "images/ruang_tunggu.png",
+        "teks": "Rifat duduk sendirian di dalam ruangan jeruji besi dengan tatapan kosong.",
+        "gambar": "images/rifat_merenung.png",
         "tujuan": "secret_ending_6"
     },
     "secret_ending_6": {
         "nama": "Rifat",
         "teks": "“Kenapa hidup gue bisa jadi kacau begini...”",
-        "gambar": "images/rifat_menangis.png",
+        "gambar": "images/rifat_merenung.png",
         "tujuan": "secret_ending_7"
     },
     "secret_ending_7": {
         "nama": "Narator",
-        "teks": "Tiba-tiba, sayup-sayup terdengar suara seseorang memanggilnya dari kejauhan.",
-        "gambar": "images/gelap.png",
+        "teks": "Tiba-tiba, sayup-sayup terdengar suara seseorang memanggilnya dari kegelapan.",
+        "gambar": "images/gelap1.png",
         "tujuan": "secret_ending_8"
     },
     "secret_ending_8": {
         "nama": "Suara Misterius",
         "teks": "“Rifat! Bangun!”",
-        "gambar": "images/gelap.png",
+        "gambar": "images/gelap2.png",
         "tujuan": "secret_ending_9"
     },
     "secret_ending_9": {
@@ -451,24 +451,24 @@ CERITA_DATABASE = {
     },
     "secret_ending_10": {
         "nama": "Narator",
-        "teks": "Rifat terbangun di atas tempat tidurnya sendiri. Dia melirik jam dinding: 06:30.",
+        "teks": "Rifat dan Dia melirik jam wekernya : 06:30.",
         "gambar": "images/jam_0630.png",
         "tujuan": "secret_ending_11"
     },
     "secret_ending_11": {
         "nama": "Rifat",
         "teks": "“Hah...? Jadi ini semua cuma mimpi?”",
-        "gambar": "images/rifat_bingung.png",
+        "gambar": "images/rifat_panik2.png",
         "tujuan": "secret_ending_12"
     },
     "secret_ending_12": {
         "nama": "Narator",
         "teks": "Dia melihat seragamnya masih tergantung rapi, lalu menghela napas panjang penuh rasa syukur.",
-        "gambar": "images/seragam.png",
+        "gambar": "images/rifat_lega.png",
         "tipe": "ending",
         "id_ending": "secret",
         "judul": "SECRET ENDING — BANGUN, RIFAT!",
-        "pesan": "Segala kekacauan di jalanan tadi ternyata hanyalah mimpi buruk Rifat karena tidur terlalu pulas."
+        "pesan": "Segala kekacauan di jalanan tadi ternyata hanyalah mimpi buruk Rifat karena Rifat semalam Nonton Anime."
     },
 
     # ================= CEK WAKTU SAMPAI DI SEKOLAH (OTOMATIS) =================
@@ -481,7 +481,7 @@ CERITA_DATABASE = {
     "cek_waktu_sekolah_2": {
         "nama": "Narator",
         "teks": "Rifat melirik jam tangannya untuk melihat waktu kedatangannya...",
-        "gambar": "images/lihat_jam.png",
+        "gambar": "images/rifat_lihat_jam.png",
         "tujuan": "tepat_waktu_awal"  # Otomatis Tepat Waktu karena lewat jalan utama secara tertib
     },
 
@@ -495,13 +495,13 @@ CERITA_DATABASE = {
     "tepat_waktu_2": {
         "nama": "Rifat",
         "teks": "“Yes! Masih sempat! Aku tidak terlambat!”",
-        "gambar": "images/rifat_senang.png",
+        "gambar": "images/rifat_senang2.png",
         "tujuan": "tepat_waktu_3"
     },
     "tepat_waktu_3": {
         "nama": "Narator",
-        "teks": "Rifat memarkirkan motornya dengan tenang dan berjalan menuju gedung sekolah.",
-        "gambar": "images/parkir_motor.png",
+        "teks": "Rifat pun bergegas menuju ke kelas.",
+        "gambar": "images/rifat_masuk.png",
         "tujuan": "tepat_waktu_4"
     },
     "tepat_waktu_4": {
@@ -628,7 +628,7 @@ CERITA_DATABASE = {
     "terlambat_6": {
         "nama": "Rifat",
         "teks": "“I-iya, Pak... Maaf saya kesiangan.”",
-        "gambar": "images/rifat_nunduk.png",
+        "gambar": "images/rifat_nunduk2.png",
         "tujuan": "terlambat_7"
     },
     "terlambat_7": {
