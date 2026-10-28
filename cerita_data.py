@@ -15,6 +15,7 @@ CERITA_DATABASE = {
     "mulai": {
         "nama": "Narator",
         "teks": "Kringg Kringg! Alarm berbunyi keras di pagi hari.",
+        "sfx" : "sounds/alarm.mp3",
         "gambar": "images/rifat_tidur.png",
         "tujuan": "mulai_2"
     },
@@ -500,7 +501,7 @@ CERITA_DATABASE = {
     },
     "tepat_waktu_3": {
         "nama": "Narator",
-        "teks": "Rifat pun bergegas menuju ke kelas.",
+        "teks": "Rifat pun bergegas menuju ke  kelas.",
         "gambar": "images/rifat_masuk.png",
         "tujuan": "tepat_waktu_4"
     },
@@ -544,7 +545,7 @@ CERITA_DATABASE = {
 
     "pilih_masuk_kelas_tepat": {
         "nama": "Narator",
-        "teks": "Rifat membuka pintu kelas dengan mantap.",
+        "teks": "Rifat membuka pintu kelas.",
         "gambar": "images/buka_pintu.png",
         "tujuan": "pilih_masuk_kelas_tepat_2"
     },
@@ -556,7 +557,7 @@ CERITA_DATABASE = {
     },
     "pilih_masuk_kelas_tepat_3": {
         "nama": "Rifat",
-        "teks": "“...Hah? Kok aneh banget?”",
+        "teks": "“...Hah? Kok Sepi?”",
         "gambar": "images/rifat_bingung.png",
         "tujuan": "pilih_masuk_kelas_tepat_4"
     },
@@ -604,19 +605,19 @@ CERITA_DATABASE = {
     "terlambat_2": {
         "nama": "Rifat",
         "teks": "“Celaka... aku benar-benar terlambat.”",
-        "gambar": "images/rifat_menangis.png",
+        "gambar": "images/rifat_menangis2.png",
         "tujuan": "terlambat_3"
     },
     "terlambat_3": {
         "nama": "Narator",
         "teks": "Rifat berlari terbirit-birit menuju ke ruang kelasnya.",
-        "gambar": "images/lari_koridor.png",
+        "gambar": "images/rifat_masuk.png",
         "tujuan": "terlambat_4"
     },
     "terlambat_4": {
         "nama": "Narator",
         "teks": "Saat pintu dibuka, guru killer sudah berdiri di dalam kelas dan semua mata menatap ke arahnya.",
-        "gambar": "images/guru_marah.png",
+        "gambar": "images/buka_pintu2.png",
         "tujuan": "terlambat_5"
     },
     "terlambat_5": {
@@ -633,17 +634,17 @@ CERITA_DATABASE = {
     },
     "terlambat_7": {
         "nama": "Narator",
-        "teks": "Guru memberikan hukuman disiplin karena keterlambatannya, dan Rifat hanya bisa pasrah.",
-        "gambar": "images/hukuman.png",
+        "teks": "Pak Guru Killer Menyuruh Rifat keliling Lapangan Sekolah Sebagai Hukuman.",
+        "gambar": "images/rifat_nunduk2.png",
         "tujuan": "terlambat_8"
     },
     "terlambat_8": {
         "nama": "Narator",
-        "teks": "Rifat menjalani sisa jam pelajaran dengan perasaan malu bercampur lelah karena terlambat.",
-        "gambar": "images/belajar_lesu.png",
+        "teks": "Rifat pun menjalani hukuman tersebut.",
+        "gambar": "images/hukuman.png",
         "tipe": "ending",
         "id_ending": "bad",
         "judul": "BAD ENDING — TERLAMBAT LAGI",
-        "pesan": "Rifat terlambat datang ke sekolah dan harus menerima hukuman dari guru piket maupun wali kelas."
+        "pesan": "Rifat terlambat datang ke sekolah dan harus menerima hukuman dari guru killer."
     }
 }
